@@ -31,23 +31,47 @@
 		},
 		{
 			"name": "MTF",
-			"code": "2SaJT2A_YVG_uZVIfh04GGLJGaY1r3pPt185-YJkBLuDlG3nAQAAAA2",
+			"code": "ISdW-3hWe-kuLyj4kIl3rH2UmDCcNHlBjICXUABpWsKDlG3nAQAAAA2",
 			"permission": [
 				"Group:MTF:1-255"
+			],
+			"id": "3098947d-349c-4179-8c80-975000695ac2",
+			"adminPermissions": [
+				"Group:MTF:7-255",
+				"Group:MTFA1:249-255",
+				"Group:MTFO9:249-255",
+				"Group:MTFE11:249-255",
+				"Group:MTFXI3:249-255"
 			]
 		},
 		{
 			"name": "MTF Training #1",
-			"code": "3PesmZHspHXd4mthhIX5ba4Mm-Gf1OtMkfSSnR2GnBiDlG3nAQAAAA2",
+			"code": "pEheRK0VDxoOvzlK6hJpp41uEsDbTmxKrN4DqXIfBaSDlG3nAQAAAA2",
 			"permission": [
 				"Group:MTF:1-255"
+			],
+			"id": "c0126e8d-4edb-4a6c-acde-03a9721f05a4",
+			"adminPermissions": [
+				"Group:MTF:7-255",
+				"Group:MTFA1:249-255",
+				"Group:MTFO9:249-255",
+				"Group:MTFE11:249-255",
+				"Group:MTFXI3:249-255"
 			]
 		},
 		{
 			"name": "MTF Training #2",
-			"code": "MOwidIO93eZaHMy92x8wXEfVWzvpQYhMg-T6ALW31RGDlG3nAQAAAA2",
+			"code": "3EF7CKbnm56bI09u_cPgOQ7f6g59WdFGi4JhHnI_VkeDlG3nAQAAAA2",
 			"permission": [
 				"Group:MTF:1-255"
+			],
+			"id": "0eeadf0e-597d-46d1-8b82-611e723f5647",
+			"adminPermissions": [
+				"Group:MTF:7-255",
+				"Group:MTFA1:249-255",
+				"Group:MTFO9:249-255",
+				"Group:MTFE11:249-255",
+				"Group:MTFXI3:249-255"
 			]
 		}
 	]
