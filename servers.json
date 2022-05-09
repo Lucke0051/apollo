@@ -9,16 +9,24 @@
 		},
 		{
 			"name": "SD",
-			"code": "xpiA_bpDzEYJm283xeQbdIXaO39uS2JGiflsbxGDeYmDlG3nAQAAAA2",
+			"code": "J2BCe2uItZQ8vtH4T6QXchT3sCEmcTZPmDe52c_8nTSDlG3nAQAAAA2",
 			"permission": [
 				"Group:SD:1-255"
+			],
+			"id": "21b0f714-7126-4f36-9837-b9d9cffc9d34",
+			"adminPermissions": [
+				"Group:SD:9-255"
 			]
 		},
 		{
 			"name": "SD Tryout",
-			"code": "D5oYNDyiL0Bvn0I7iJq7xYtkrMCiYdVCmTKuC9ndIsKDlG3nAQAAAA2",
+			"code": "9t0vZm9ndUlIKPQr1gF7pmewj1FwM3dBvn7-H3Q8hSODlG3nAQAAAA2",
 			"permission": [
 				"Group:SD:1-255"
+			],
+			"id": "518fb067-3370-4177-be7e-fe1f743c8523",
+			"adminPermissions": [
+				"Group:SD:9-255"
 			]
 		},
 		{
