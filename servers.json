@@ -11,7 +11,8 @@
 			"name": "SD",
 			"code": "J2BCe2uItZQ8vtH4T6QXchT3sCEmcTZPmDe52c_8nTSDlG3nAQAAAA2",
 			"permission": [
-				"Group:SD:1-255"
+				"Group:SD:1-255",
+				"Group:Main:10-255"
 			],
 			"id": "21b0f714-7126-4f36-9837-b9d9cffc9d34",
 			"adminPermissions": [
@@ -22,7 +23,8 @@
 			"name": "SD Tryout",
 			"code": "9t0vZm9ndUlIKPQr1gF7pmewj1FwM3dBvn7-H3Q8hSODlG3nAQAAAA2",
 			"permission": [
-				"Group:SD:1-255"
+				"Group:SD:1-255",
+				"Group:Main:10-255"
 			],
 			"id": "518fb067-3370-4177-be7e-fe1f743c8523",
 			"adminPermissions": [
@@ -33,7 +35,8 @@
 			"name": "MTF",
 			"code": "ISdW-3hWe-kuLyj4kIl3rH2UmDCcNHlBjICXUABpWsKDlG3nAQAAAA2",
 			"permission": [
-				"Group:MTF:1-255"
+				"Group:MTF:1-255",
+				"Group:Main:10-255"
 			],
 			"id": "3098947d-349c-4179-8c80-975000695ac2",
 			"adminPermissions": [
@@ -48,7 +51,8 @@
 			"name": "MTF Training #1",
 			"code": "pEheRK0VDxoOvzlK6hJpp41uEsDbTmxKrN4DqXIfBaSDlG3nAQAAAA2",
 			"permission": [
-				"Group:MTF:1-255"
+				"Group:MTF:1-255",
+				"Group:Main:10-255"
 			],
 			"id": "c0126e8d-4edb-4a6c-acde-03a9721f05a4",
 			"adminPermissions": [
@@ -63,7 +67,8 @@
 			"name": "MTF Training #2",
 			"code": "3EF7CKbnm56bI09u_cPgOQ7f6g59WdFGi4JhHnI_VkeDlG3nAQAAAA2",
 			"permission": [
-				"Group:MTF:1-255"
+				"Group:MTF:1-255",
+				"Group:Main:10-255"
 			],
 			"id": "0eeadf0e-597d-46d1-8b82-611e723f5647",
 			"adminPermissions": [
