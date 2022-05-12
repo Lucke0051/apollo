@@ -20,18 +20,6 @@
 			]
 		},
 		{
-			"name": "SD Tryout",
-			"code": "9t0vZm9ndUlIKPQr1gF7pmewj1FwM3dBvn7-H3Q8hSODlG3nAQAAAA2",
-			"permission": [
-				"Group:SD:1-255",
-				"Group:Main:10-255"
-			],
-			"id": "518fb067-3370-4177-be7e-fe1f743c8523",
-			"adminPermissions": [
-				"Group:SD:9-255"
-			]
-		},
-		{
 			"name": "MTF",
 			"code": "ISdW-3hWe-kuLyj4kIl3rH2UmDCcNHlBjICXUABpWsKDlG3nAQAAAA2",
 			"permission": [
