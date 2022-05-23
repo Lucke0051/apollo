@@ -66,6 +66,15 @@
 				"Group:MTFE11:249-255",
 				"Group:MTFXI3:249-255"
 			]
+		},
+		{
+			"name": "DEV P#1",
+			"code": "CFSxraMf6q3oNVDhFvU89n0cUklrAaJJu1nL7C78QWwUrJN2AQAAAA2",
+			"permission": [
+				["Main:O5", "Env:DEV", "AND"]
+			],
+			"id": "49521c7d-016b-49a2-bb59-cbec2efc416c",
+			"adminPermissions": []
 		}
 	]
 }
