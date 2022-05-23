@@ -2,31 +2,33 @@
 	"servers": [
 		{
 			"name": "Event #1",
-			"code": "pg342Il-3FwUMY8A9UXClka4bSFDz7ZFoeYyUBMM94eDlG3nAQAAAA2",
+			"code": "yDA9feEUlLxSHLC7M6RUG79vkcrnB7dIudqH60WcuQzdP89oAQAAAA2",
 			"permission": [
 				"Group:Main:1-255"
-			]
+			],
+			"id": "ca916fbf-07e7-48b7-b9da-87eb459cb90c",
+			"adminPermissions": []
 		},
 		{
 			"name": "SD",
-			"code": "J2BCe2uItZQ8vtH4T6QXchT3sCEmcTZPmDe52c_8nTSDlG3nAQAAAA2",
+			"code": "96dboJgl9bhtXNklLhNnb9-XyZxC8lpDqBxkd0HhQv7dP89oAQAAAA2",
 			"permission": [
 				"Group:SD:1-255",
 				"Group:Main:10-255"
 			],
-			"id": "21b0f714-7126-4f36-9837-b9d9cffc9d34",
+			"id": "9cc997df-f242-435a-a81c-647741e142fe",
 			"adminPermissions": [
 				"Group:SD:9-255"
 			]
 		},
 		{
 			"name": "MTF",
-			"code": "ISdW-3hWe-kuLyj4kIl3rH2UmDCcNHlBjICXUABpWsKDlG3nAQAAAA2",
+			"code": "ye9M8UeNI8D2E7kIei-_HBshy0H8rTFHpa_14toLq5HdP89oAQAAAA2",
 			"permission": [
 				"Group:MTF:1-255",
 				"Group:Main:10-255"
 			],
-			"id": "3098947d-349c-4179-8c80-975000695ac2",
+			"id": "41cb211b-adfc-4731-a5af-f5e2da0bab91",
 			"adminPermissions": [
 				"Group:MTF:7-255",
 				"Group:MTFA1:249-255",
@@ -37,12 +39,12 @@
 		},
 		{
 			"name": "MTF Training #1",
-			"code": "pEheRK0VDxoOvzlK6hJpp41uEsDbTmxKrN4DqXIfBaSDlG3nAQAAAA2",
+			"code": "ligqJ3JcAi-KQeoF8ki0OxJx0CuBtyBJmFpn82Ny1ZLdP89oAQAAAA2",
 			"permission": [
 				"Group:MTF:1-255",
 				"Group:Main:10-255"
 			],
-			"id": "c0126e8d-4edb-4a6c-acde-03a9721f05a4",
+			"id": "2bd07112-b781-4920-985a-67f36372d592",
 			"adminPermissions": [
 				"Group:MTF:7-255",
 				"Group:MTFA1:249-255",
@@ -53,12 +55,12 @@
 		},
 		{
 			"name": "MTF Training #2",
-			"code": "3EF7CKbnm56bI09u_cPgOQ7f6g59WdFGi4JhHnI_VkeDlG3nAQAAAA2",
+			"code": "6m3kqYjEcaVK3LVHTbmMepe8-3g-cYdClInryO4skJDdP89oAQAAAA2",
 			"permission": [
 				"Group:MTF:1-255",
 				"Group:Main:10-255"
 			],
-			"id": "0eeadf0e-597d-46d1-8b82-611e723f5647",
+			"id": "78fbbc97-713e-4287-9489-ebc8ee2c9090",
 			"adminPermissions": [
 				"Group:MTF:7-255",
 				"Group:MTFA1:249-255",
