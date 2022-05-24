@@ -1,0 +1,410 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "type": "object",
+    "default": {},
+    "title": "Servers Schema",
+    "required": [
+        "servers"
+    ],
+    "properties": {
+        "servers": {
+            "type": "array",
+            "default": [],
+            "title": "The servers Schema",
+            "items": {
+                "type": "object",
+                "title": "A Schema",
+                "required": [
+                    "name",
+                    "code",
+                    "permission",
+                    "id",
+                    "adminPermissions"
+                ],
+                "properties": {
+                    "name": {
+                        "type": "string",
+                        "title": "The name Schema",
+                        "examples": [
+                            "Event #1",
+                            "SD",
+                            "MTF",
+                            "MTF Training #1",
+                            "MTF Training #2",
+                            "DEV P#1"
+                        ]
+                    },
+                    "code": {
+                        "type": "string",
+                        "title": "The code Schema",
+                        "examples": [
+                            "yDA9feEUlLxSHLC7M6RUG79vkcrnB7dIudqH60WcuQzdP89oAQAAAA2",
+                            "96dboJgl9bhtXNklLhNnb9-XyZxC8lpDqBxkd0HhQv7dP89oAQAAAA2",
+                            "ye9M8UeNI8D2E7kIei-_HBshy0H8rTFHpa_14toLq5HdP89oAQAAAA2",
+                            "ligqJ3JcAi-KQeoF8ki0OxJx0CuBtyBJmFpn82Ny1ZLdP89oAQAAAA2",
+                            "6m3kqYjEcaVK3LVHTbmMepe8-3g-cYdClInryO4skJDdP89oAQAAAA2",
+                            "CFSxraMf6q3oNVDhFvU89n0cUklrAaJJu1nL7C78QWwUrJN2AQAAAA2"
+                        ]
+                    },
+                    "permission": {
+                        "type": "array",
+                        "title": "The permission Schema",
+                        "items": {
+                            "anyOf": [{
+                                "type": "string",
+                                "title": "A Schema",
+                                "examples": [
+                                    "Group:Main:1-255",
+                                    "Group:SD:1-255",
+                                    "Group:Main:10-255",
+                                    "Group:MTF:1-255"
+                                ]
+                            },
+                            {
+                                "type": "array",
+                                "default": [],
+                                "title": "A Schema",
+                                "items": {
+                                    "type": "string",
+                                    "title": "A Schema",
+                                    "examples": [
+                                        "Main:O5",
+                                        "Env:DEV",
+                                        "AND"
+                                    ]
+                                },
+                                "examples": [
+                                    ["Main:O5",
+                                        "Env:DEV",
+                                        "AND"
+                                    ]
+                                ]
+                            }]
+                        },
+                        "examples": [
+                            [
+                                "Group:Main:1-255"],
+                            ["Group:SD:1-255",
+                                "Group:Main:10-255"
+                            ],
+                            ["Group:MTF:1-255",
+                                "Group:Main:10-255"
+                            ],
+                            ["Group:MTF:1-255",
+                                "Group:Main:10-255"
+                            ],
+                            ["Group:MTF:1-255",
+                                "Group:Main:10-255"
+                            ],
+                            [
+                                ["Main:O5",
+                                    "Env:DEV",
+                                    "AND"
+                                ]
+                            ]
+                        ]
+                    },
+                    "id": {
+                        "type": "string",
+                        "title": "The id Schema",
+                        "examples": [
+                            "ca916fbf-07e7-48b7-b9da-87eb459cb90c",
+                            "9cc997df-f242-435a-a81c-647741e142fe",
+                            "41cb211b-adfc-4731-a5af-f5e2da0bab91",
+                            "2bd07112-b781-4920-985a-67f36372d592",
+                            "78fbbc97-713e-4287-9489-ebc8ee2c9090",
+                            "49521c7d-016b-49a2-bb59-cbec2efc416c"
+                        ]
+                    },
+                    "adminPermissions": {
+                        "type": "array",
+                        "title": "The adminPermissions Schema",
+                        "items": {
+                            "type": "string",
+                            "title": "A Schema",
+                            "examples": [
+                                "Group:SD:9-255",
+                                "Group:MTF:7-255",
+                                "Group:MTFA1:249-255",
+                                "Group:MTFO9:249-255",
+                                "Group:MTFE11:249-255",
+                                "Group:MTFXI3:249-255"
+                            ]
+                        },
+                        "examples": [
+                            [],
+                            [
+                                "Group:SD:9-255"],
+                            ["Group:MTF:7-255",
+                                "Group:MTFA1:249-255",
+                                "Group:MTFO9:249-255",
+                                "Group:MTFE11:249-255",
+                                "Group:MTFXI3:249-255"
+                            ],
+                            ["Group:MTF:7-255",
+                                "Group:MTFA1:249-255",
+                                "Group:MTFO9:249-255",
+                                "Group:MTFE11:249-255",
+                                "Group:MTFXI3:249-255"
+                            ],
+                            ["Group:MTF:7-255",
+                                "Group:MTFA1:249-255",
+                                "Group:MTFO9:249-255",
+                                "Group:MTFE11:249-255",
+                                "Group:MTFXI3:249-255"
+                            ],
+                            []
+                        ]
+                    }
+                },
+                "examples": [{
+                    "name": "Event #1",
+                    "code": "yDA9feEUlLxSHLC7M6RUG79vkcrnB7dIudqH60WcuQzdP89oAQAAAA2",
+                    "permission": [
+                        "Group:Main:1-255"
+                    ],
+                    "id": "ca916fbf-07e7-48b7-b9da-87eb459cb90c",
+                    "adminPermissions": []
+                },
+                {
+                    "name": "SD",
+                    "code": "96dboJgl9bhtXNklLhNnb9-XyZxC8lpDqBxkd0HhQv7dP89oAQAAAA2",
+                    "permission": [
+                        "Group:SD:1-255",
+                        "Group:Main:10-255"
+                    ],
+                    "id": "9cc997df-f242-435a-a81c-647741e142fe",
+                    "adminPermissions": [
+                        "Group:SD:9-255"
+                    ]
+                },
+                {
+                    "name": "MTF",
+                    "code": "ye9M8UeNI8D2E7kIei-_HBshy0H8rTFHpa_14toLq5HdP89oAQAAAA2",
+                    "permission": [
+                        "Group:MTF:1-255",
+                        "Group:Main:10-255"
+                    ],
+                    "id": "41cb211b-adfc-4731-a5af-f5e2da0bab91",
+                    "adminPermissions": [
+                        "Group:MTF:7-255",
+                        "Group:MTFA1:249-255",
+                        "Group:MTFO9:249-255",
+                        "Group:MTFE11:249-255",
+                        "Group:MTFXI3:249-255"
+                    ]
+                },
+                {
+                    "name": "MTF Training #1",
+                    "code": "ligqJ3JcAi-KQeoF8ki0OxJx0CuBtyBJmFpn82Ny1ZLdP89oAQAAAA2",
+                    "permission": [
+                        "Group:MTF:1-255",
+                        "Group:Main:10-255"
+                    ],
+                    "id": "2bd07112-b781-4920-985a-67f36372d592",
+                    "adminPermissions": [
+                        "Group:MTF:7-255",
+                        "Group:MTFA1:249-255",
+                        "Group:MTFO9:249-255",
+                        "Group:MTFE11:249-255",
+                        "Group:MTFXI3:249-255"
+                    ]
+                },
+                {
+                    "name": "MTF Training #2",
+                    "code": "6m3kqYjEcaVK3LVHTbmMepe8-3g-cYdClInryO4skJDdP89oAQAAAA2",
+                    "permission": [
+                        "Group:MTF:1-255",
+                        "Group:Main:10-255"
+                    ],
+                    "id": "78fbbc97-713e-4287-9489-ebc8ee2c9090",
+                    "adminPermissions": [
+                        "Group:MTF:7-255",
+                        "Group:MTFA1:249-255",
+                        "Group:MTFO9:249-255",
+                        "Group:MTFE11:249-255",
+                        "Group:MTFXI3:249-255"
+                    ]
+                },
+                {
+                    "name": "DEV P#1",
+                    "code": "CFSxraMf6q3oNVDhFvU89n0cUklrAaJJu1nL7C78QWwUrJN2AQAAAA2",
+                    "permission": [
+                        ["Main:O5",
+                            "Env:DEV",
+                            "AND"
+                        ]
+                    ],
+                    "id": "49521c7d-016b-49a2-bb59-cbec2efc416c",
+                    "adminPermissions": []
+                }]
+            },
+            "examples": [
+                [{
+                    "name": "Event #1",
+                    "code": "yDA9feEUlLxSHLC7M6RUG79vkcrnB7dIudqH60WcuQzdP89oAQAAAA2",
+                    "permission": [
+                        "Group:Main:1-255"
+                    ],
+                    "id": "ca916fbf-07e7-48b7-b9da-87eb459cb90c",
+                    "adminPermissions": []
+                },
+                {
+                    "name": "SD",
+                    "code": "96dboJgl9bhtXNklLhNnb9-XyZxC8lpDqBxkd0HhQv7dP89oAQAAAA2",
+                    "permission": [
+                        "Group:SD:1-255",
+                        "Group:Main:10-255"
+                    ],
+                    "id": "9cc997df-f242-435a-a81c-647741e142fe",
+                    "adminPermissions": [
+                        "Group:SD:9-255"
+                    ]
+                },
+                {
+                    "name": "MTF",
+                    "code": "ye9M8UeNI8D2E7kIei-_HBshy0H8rTFHpa_14toLq5HdP89oAQAAAA2",
+                    "permission": [
+                        "Group:MTF:1-255",
+                        "Group:Main:10-255"
+                    ],
+                    "id": "41cb211b-adfc-4731-a5af-f5e2da0bab91",
+                    "adminPermissions": [
+                        "Group:MTF:7-255",
+                        "Group:MTFA1:249-255",
+                        "Group:MTFO9:249-255",
+                        "Group:MTFE11:249-255",
+                        "Group:MTFXI3:249-255"
+                    ]
+                },
+                {
+                    "name": "MTF Training #1",
+                    "code": "ligqJ3JcAi-KQeoF8ki0OxJx0CuBtyBJmFpn82Ny1ZLdP89oAQAAAA2",
+                    "permission": [
+                        "Group:MTF:1-255",
+                        "Group:Main:10-255"
+                    ],
+                    "id": "2bd07112-b781-4920-985a-67f36372d592",
+                    "adminPermissions": [
+                        "Group:MTF:7-255",
+                        "Group:MTFA1:249-255",
+                        "Group:MTFO9:249-255",
+                        "Group:MTFE11:249-255",
+                        "Group:MTFXI3:249-255"
+                    ]
+                },
+                {
+                    "name": "MTF Training #2",
+                    "code": "6m3kqYjEcaVK3LVHTbmMepe8-3g-cYdClInryO4skJDdP89oAQAAAA2",
+                    "permission": [
+                        "Group:MTF:1-255",
+                        "Group:Main:10-255"
+                    ],
+                    "id": "78fbbc97-713e-4287-9489-ebc8ee2c9090",
+                    "adminPermissions": [
+                        "Group:MTF:7-255",
+                        "Group:MTFA1:249-255",
+                        "Group:MTFO9:249-255",
+                        "Group:MTFE11:249-255",
+                        "Group:MTFXI3:249-255"
+                    ]
+                },
+                {
+                    "name": "DEV P#1",
+                    "code": "CFSxraMf6q3oNVDhFvU89n0cUklrAaJJu1nL7C78QWwUrJN2AQAAAA2",
+                    "permission": [
+                        ["Main:O5",
+                            "Env:DEV",
+                            "AND"
+                        ]
+                    ],
+                    "id": "49521c7d-016b-49a2-bb59-cbec2efc416c",
+                    "adminPermissions": []
+                }]
+            ]
+        }
+    },
+    "examples": [{
+        "servers": [{
+            "name": "Event #1",
+            "code": "yDA9feEUlLxSHLC7M6RUG79vkcrnB7dIudqH60WcuQzdP89oAQAAAA2",
+            "permission": [
+                "Group:Main:1-255"
+            ],
+            "id": "ca916fbf-07e7-48b7-b9da-87eb459cb90c",
+            "adminPermissions": []
+        },
+        {
+            "name": "SD",
+            "code": "96dboJgl9bhtXNklLhNnb9-XyZxC8lpDqBxkd0HhQv7dP89oAQAAAA2",
+            "permission": [
+                "Group:SD:1-255",
+                "Group:Main:10-255"
+            ],
+            "id": "9cc997df-f242-435a-a81c-647741e142fe",
+            "adminPermissions": [
+                "Group:SD:9-255"
+            ]
+        },
+        {
+            "name": "MTF",
+            "code": "ye9M8UeNI8D2E7kIei-_HBshy0H8rTFHpa_14toLq5HdP89oAQAAAA2",
+            "permission": [
+                "Group:MTF:1-255",
+                "Group:Main:10-255"
+            ],
+            "id": "41cb211b-adfc-4731-a5af-f5e2da0bab91",
+            "adminPermissions": [
+                "Group:MTF:7-255",
+                "Group:MTFA1:249-255",
+                "Group:MTFO9:249-255",
+                "Group:MTFE11:249-255",
+                "Group:MTFXI3:249-255"
+            ]
+        },
+        {
+            "name": "MTF Training #1",
+            "code": "ligqJ3JcAi-KQeoF8ki0OxJx0CuBtyBJmFpn82Ny1ZLdP89oAQAAAA2",
+            "permission": [
+                "Group:MTF:1-255",
+                "Group:Main:10-255"
+            ],
+            "id": "2bd07112-b781-4920-985a-67f36372d592",
+            "adminPermissions": [
+                "Group:MTF:7-255",
+                "Group:MTFA1:249-255",
+                "Group:MTFO9:249-255",
+                "Group:MTFE11:249-255",
+                "Group:MTFXI3:249-255"
+            ]
+        },
+        {
+            "name": "MTF Training #2",
+            "code": "6m3kqYjEcaVK3LVHTbmMepe8-3g-cYdClInryO4skJDdP89oAQAAAA2",
+            "permission": [
+                "Group:MTF:1-255",
+                "Group:Main:10-255"
+            ],
+            "id": "78fbbc97-713e-4287-9489-ebc8ee2c9090",
+            "adminPermissions": [
+                "Group:MTF:7-255",
+                "Group:MTFA1:249-255",
+                "Group:MTFO9:249-255",
+                "Group:MTFE11:249-255",
+                "Group:MTFXI3:249-255"
+            ]
+        },
+        {
+            "name": "DEV P#1",
+            "code": "CFSxraMf6q3oNVDhFvU89n0cUklrAaJJu1nL7C78QWwUrJN2AQAAAA2",
+            "permission": [
+                ["Main:O5",
+                    "Env:DEV",
+                    "AND"
+                ]
+            ],
+            "id": "49521c7d-016b-49a2-bb59-cbec2efc416c",
+            "adminPermissions": []
+        }]
+    }]
+}
