@@ -69,6 +69,20 @@
 				"Group:MTFXI3:249-255"
 			]
 		},
+			{
+				"name": "E&T",
+				"code": "GnWHvNv438TMtPs7JCg10i9qVi6_JrVAjn8GJqqEdXTdP89oAQAAAA2",
+				"permission": [
+					[
+						"Group:EnTS",
+						"Main:10-255"
+					]
+				],
+				"id": "2e566a2f-26bf-40b5-8e7f-0626aa847574",
+				"adminPermissions": [
+					"Group:EnTS:7-255"
+				]
+			},
 		{
 			"name": "DEV P#1",
 			"code": "CFSxraMf6q3oNVDhFvU89n0cUklrAaJJu1nL7C78QWwUrJN2AQAAAA2",
